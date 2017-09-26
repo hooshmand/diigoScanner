@@ -37,6 +37,5 @@ f= open(fname);
 lines = f.readlines();
 for i in lines:
     send(i.strip());
-#send('hooshmand.k@gmail.com');
 
 print("[+] Finished!");
